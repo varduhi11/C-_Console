@@ -1,0 +1,5 @@
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1(HelloWorld)\obj\Debug\net6.0\Lesson_1(HelloWorld).csproj.AssemblyReference.cache
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1(HelloWorld)\obj\Debug\net6.0\Lesson_1(HelloWorld).GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1(HelloWorld)\obj\Debug\net6.0\Lesson_1(HelloWorld).AssemblyInfoInputs.cache
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1(HelloWorld)\obj\Debug\net6.0\Lesson_1(HelloWorld).AssemblyInfo.cs
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1(HelloWorld)\obj\Debug\net6.0\Lesson_1(HelloWorld).csproj.CoreCompileInputs.cache
