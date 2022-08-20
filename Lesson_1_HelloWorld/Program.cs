@@ -104,14 +104,15 @@ Console.WriteLine(b);
 
 
 
-//Задача 26: Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
-//456 -> 3
-//78 -> 2
-//89126 -> 5
-int DigitsCount(int number){
+/*Задача 26: Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
+456 -> 3
+78 -> 2
+89126 -> 5
+*/
+/*int DigitsCount(int number){
     int count = 0;
     for ()
-}
+}*/
 
 
 
@@ -134,7 +135,7 @@ int DigitsCount(int number){
 Например, в массиве [3,9,-8,1,0,-7,2,-1,8,-3,-1,6] сумма положительных чисел равна 29, сумма отрицательных равна -20.
 */
 
-
+/*
 int[] NewArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
@@ -175,7 +176,7 @@ array = NewArray(array);
 Console.WriteLine("[" + string.Join(", ", array) + "]");
 Console.WriteLine("Сумма отрицательных элементов: " + SumNegative(array));
 Console.WriteLine("Сумма положительных элементов: " + SumPositive(array));
-
+*/
 
 /*Задача 32: Напишите программу замена элементов массива: положительные элементы замените на соответствующие отрицательные, и наоборот.
 [-4, -8, 8, 2] -> [4, 8, -8, -2] 
@@ -201,7 +202,8 @@ Console.WriteLine("Начальный массив: [" + string.Join(", ", array
 znak(array);
 Console.WriteLine("Конечный массив: [" + string.Join(", ", array) + "]");
 */
-{
+
+/*{
     Console.Write("Введите начальное значение диапазона: ");
     int begin = Convert.ToInt32(Console.ReadLine());;
     Console.Write("Введите начальное значение диапазона: ");
@@ -224,7 +226,7 @@ NewArray(array);
 Console.WriteLine("Начальный массив: [" + string.Join(", ", array) + "]");
 znak(array);
 Console.WriteLine("Конечный массив: [" + string.Join(", ", array) + "]");
-
+*/
 
 
 /*Задача 33: Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве.
@@ -274,7 +276,9 @@ Console.Write("Укажите число, которое Вы хотите на�
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(SearchNumberInArray(array, number));
 */
-void NewArray(int[] array)
+
+
+/*void NewArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
         array[i] = new Random().Next(-10, 11);
@@ -299,7 +303,7 @@ Console.WriteLine("Начальный массив: [" + string.Join(", ", array
 Console.Write("Укажите число, которое Вы хотите найти в массиве: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(SearchNumberInArray(array, number));
-
+*/
 
 
 /*Задача 35: Задайте одномерный массив из 123 случайных чисел. 
@@ -310,7 +314,7 @@ Console.WriteLine(SearchNumberInArray(array, number));
 [10, 11, 12, 13, 14] -> 5
 */
 
-void NewArray(int[] array)
+/*void NewArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
         array[i] = new Random().Next(-100, 101);
@@ -333,7 +337,7 @@ int[] array = new int[123];
 NewArray(array);
 Console.WriteLine("Начальный массив: [" + string.Join(", ", array) + "]");
 Console.WriteLine("Кол-во чисел, которое лежит в интервале [10; 99]: " + CountNumbers(array));
-
+*/
 
 /*Задача 37: Найдите произведение пар чисел в одномерном массиве. 
 Парой считаем первый и последний элемент, второй и предпоследний и т.д. 
@@ -342,7 +346,7 @@ Console.WriteLine("Кол-во чисел, которое лежит в инте
 [6 7 3 6] -> 36 21
 */
 
-void NewArray(int[] array)
+/*void NewArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
         array[i] = new Random().Next(-10, 10);
@@ -371,3 +375,4 @@ int[] array = new int[n];
 NewArray(array);
 Console.WriteLine("Исходный массив: [" + string.Join(", ", array) + "]");
 Console.WriteLine("Результат: " + string.Join(" ", PairsMultuplicationInArray(array)));
+*/
