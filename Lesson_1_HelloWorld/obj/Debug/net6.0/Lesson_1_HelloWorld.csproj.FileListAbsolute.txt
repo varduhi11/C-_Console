@@ -1,0 +1,15 @@
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\bin\Debug\net6.0\Lesson_1_HelloWorld.exe
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\bin\Debug\net6.0\Lesson_1_HelloWorld.deps.json
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\bin\Debug\net6.0\Lesson_1_HelloWorld.runtimeconfig.json
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\bin\Debug\net6.0\Lesson_1_HelloWorld.dll
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\bin\Debug\net6.0\Lesson_1_HelloWorld.pdb
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.csproj.AssemblyReference.cache
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.AssemblyInfoInputs.cache
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.AssemblyInfo.cs
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.csproj.CoreCompileInputs.cache
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.dll
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\refint\Lesson_1_HelloWorld.dll
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.pdb
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\Lesson_1_HelloWorld.genruntimeconfig.cache
+D:\Learning\GeekBrains\seminars\C#_Console\Lesson_1_HelloWorld\obj\Debug\net6.0\ref\Lesson_1_HelloWorld.dll

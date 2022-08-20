@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J65+fD3Vy1XiLrINtovKAhNKAUDKmCJO9qe52NdSwuLUCbZnQX4ypDGLF4blg6GHRP5IOUc9UjaBc1BRsqLkFA==",
+  "dgSpecHash": "DQIU+YRD+UbJVtDxox2UTr+Eq3L+whfyTl2Hsfp/4LlYyGRTDtbNg+zi/egAEM2naW568qEeUjN7nUhlmROadg==",
   "success": true,
-  "projectFilePath": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1(HelloWorld)\\Lesson_1(HelloWorld).csproj",
+  "projectFilePath": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1_HelloWorld\\Lesson_1_HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

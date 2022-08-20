@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1(HelloWorld)\\Lesson_1(HelloWorld).csproj",
-      "projectName": "Lesson_1(HelloWorld)",
-      "projectPath": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1(HelloWorld)\\Lesson_1(HelloWorld).csproj",
+      "projectUniqueName": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1_HelloWorld\\Lesson_1_HelloWorld.csproj",
+      "projectName": "Lesson_1_HelloWorld",
+      "projectPath": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1_HelloWorld\\Lesson_1_HelloWorld.csproj",
       "packagesPath": "C:\\Users\\Varduhi\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1(HelloWorld)\\obj\\",
+      "outputPath": "D:\\Learning\\GeekBrains\\seminars\\C#_Console\\Lesson_1_HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Varduhi\\AppData\\Roaming\\NuGet\\NuGet.Config"
