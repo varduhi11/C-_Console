@@ -6,7 +6,7 @@ Console.WriteLine("Hello, World!");
 // показывает последнюю цифру этого числа.
 // 456 -> 6
 // 782 -> 2
-// 918 -> 8
+// 918 -> 81
 
 Console.Write("Введите трехзначное число: ");
 int x = Convert.ToInt32(Console.ReadLine());
@@ -23,17 +23,22 @@ Console.WriteLine(x % 10);
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
 
-Console.Write("Введите первое число: ");
+/*Console.Write("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
+int max = 0;
 
 if (a>b)
 {
-    Console.WriteLine(a);
+    max=a;
 }
-Console.WriteLine(b);
-
+if (a<b)
+{
+    max =b;
+} 
+ Console.WriteLine(max);
+*/
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
@@ -41,7 +46,23 @@ Console.WriteLine(b);
 //44 5 78 -> 78
 //22 3 9 -> 22
 
+Console.Write("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите третье число: ");
+int c = Convert.ToInt32(Console.ReadLine());
+int max = max;
 
+if (b>max)
+{
+    max=b;
+}
+if (c>max)
+{
+    max=c;
+} 
+ Console.WriteLine(max);
 
 
 
@@ -376,3 +397,71 @@ NewArray(array);
 Console.WriteLine("Исходный массив: [" + string.Join(", ", array) + "]");
 Console.WriteLine("Результат: " + string.Join(" ", PairsMultuplicationInArray(array)));
 */
+
+//
+
+/*string check(int n)
+{
+    string? result = "";
+    while (n > 0)
+    {
+        int x = n % 2;
+        result = Convert.ToString(x) + result;
+        n /= 2;
+    }
+    return result;
+
+}
+Console.Write("Введите число, которое необходимо перевести в 2-ую систему: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(check(n));
+*/
+
+/*Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+Если N = 5 -> 0 1 1 2 3
+Если N = 3 -> 0 1 1
+Если N = 7 -> 0 1 1 2 3 5 8
+*/
+void check(int n)
+{
+    int numberOne = 0;
+    int numberTwo = 1;
+    for (int i = 0; i < n; i++)
+    {
+        Console.Write(numberOne + " ");
+        int x = numberOne + numberTwo;
+        numberOne = numberTwo;
+        numberTwo = x;
+    }
+}
+Console.Write("Укажите кол-во чисел: ");
+int n = Convert.ToInt32(Console.ReadLine());
+check(n);
+
+
+// Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
+
+void NewArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+        array[i] = new Random().Next(-10, 11);
+}
+
+int[] CreateArray(int[] array)
+{
+    int[] copyArray = new int[array.Length];
+    for (int i = 0; i < array.Length; i++)
+        copyArray[i] = array[i];
+    
+    return copyArray;
+}
+
+Console.Write("Укажите кол-во элементов массива: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] array = new int[n];
+int[] copyArray = new int[n];
+NewArray(array);
+Console.WriteLine("Исходный массива [" + string.Join(", ", array) + "]");
+copyArray = CreateArray(array);
+copyArray[0] = 20;
+Console.WriteLine("Исходный массива [" + string.Join(", ", copyArray) + "]");
