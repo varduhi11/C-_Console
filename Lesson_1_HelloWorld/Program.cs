@@ -46,13 +46,13 @@ if (a<b)
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-Console.Write("Введите первое число: ");
+/*Console.Write("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int c = Convert.ToInt32(Console.ReadLine());
-int max = max;
+int max = a;
 
 if (b>max)
 {
@@ -63,7 +63,7 @@ if (c>max)
     max=c;
 } 
  Console.WriteLine(max);
-
+*/
 
 
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
@@ -72,9 +72,17 @@ if (c>max)
 //-3 -> нет
 //7 -> нет
 
+Console.Write("Введите число: ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-
-
+if (a % 2)
+{ 
+    Console.WriteLine("Данное число четное.");
+}
+if (a !% 2)
+{
+    Console.WriteLine("Данное число не четное.");
+}
 
 
 
@@ -422,7 +430,8 @@ Console.WriteLine(check(n));
 Если N = 3 -> 0 1 1
 Если N = 7 -> 0 1 1 2 3 5 8
 */
-void check(int n)
+
+/*void check(int n)
 {
     int numberOne = 0;
     int numberTwo = 1;
@@ -437,11 +446,11 @@ void check(int n)
 Console.Write("Укажите кол-во чисел: ");
 int n = Convert.ToInt32(Console.ReadLine());
 check(n);
-
+*/
 
 // Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.
 
-void NewArray(int[] array)
+/*void NewArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
         array[i] = new Random().Next(-10, 11);
@@ -465,3 +474,4 @@ Console.WriteLine("Исходный массива [" + string.Join(", ", array)
 copyArray = CreateArray(array);
 copyArray[0] = 20;
 Console.WriteLine("Исходный массива [" + string.Join(", ", copyArray) + "]");
+*/
