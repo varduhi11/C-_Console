@@ -73,13 +73,14 @@ if (c>max)
 //7 -> нет
 
 Console.Write("Введите число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+bool a = Convert.ToInt32(Console.ReadLine());
 
 if (a % 2)
 { 
     Console.WriteLine("Данное число четное.");
 }
-if (a !% 2)
+
+else
 {
     Console.WriteLine("Данное число не четное.");
 }
