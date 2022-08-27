@@ -73,7 +73,7 @@ if (c>max)
 //7 -> нет
 
 Console.Write("Введите число: ");
-bool a = Convert.ToInt32(Console.ReadLine());
+int a = int.Parse(Convert.ToInt32(Console.ReadLine()));
 
 if (a % 2)
 { 
@@ -475,4 +475,21 @@ Console.WriteLine("Исходный массива [" + string.Join(", ", array)
 copyArray = CreateArray(array);
 copyArray[0] = 20;
 Console.WriteLine("Исходный массива [" + string.Join(", ", copyArray) + "]");
+*/
+
+
+/*Задача 46: Задайте двумерный массив размером m×n, заполненный случайными целыми числами.
+m = 3, n = 4.
+1 4 8 19
+5 -2 33 -2
+77 3 8 1
+*/
+
+
+
+/*Задача 48: Задайте двумерный массив размера m на n, каждый элемент в массиве находится по формуле: Aₘₙ = m+n. Выведите полученный массив на экран.
+m = 3, n = 4.
+0 1 2 3
+1 2 3 4
+2 3 4 5
 */
