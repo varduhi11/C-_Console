@@ -121,28 +121,25 @@ for (i=1; i <= m; i++)
 918 -> 1
 */
 
-Console.Write("Введите трехзначное число: ");
-int x = Convert.ToInt32(Console.ReadLine());
-/*int x1;
+/*Console.Write("Введите трехзначное число: ");
+int x = Convert.ToInt32(Console.ReadLine());*/
 
-x1= (x%100)/10;
-Console.WriteLine(x1);*/
-Console.WriteLine((x%100)/10);
-
+/*Console.WriteLine((x%100)/10);
+*/
 
 /*Задача 13: Напишите программу, которая выводит третью цифру заданного числа 
 или сообщает, что третьей цифры нет.
 
 645 -> 5
-
 78 -> третьей цифры нет
-
 32679 -> 6
 */
 
-
-
-
+/*Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine());
+int k = (int)Math.Log10(n)-2;
+Console.WriteLine(k < 0 ? "Третьей цифры нет" : (n % (int)Math.Pow(10, k + 1) / (int)Math.Pow(10, k)).ToString());
+*/
 
 
 /*Задача 15: Напишите программу, которая принимает на вход цифру, 
@@ -153,14 +150,23 @@ Console.WriteLine((x%100)/10);
 1 -> нет
 */
 
+/*Console.Write("Введите числом день недели: ");
+int day=int.Parse(Console.ReadLine());
+
+if(day<=5)
+{
+    Console.WriteLine("Рабочий");
+}
+else
+{
+    Console.WriteLine("Выходной");
+}
+*/
 
 
 
-
-
-
-
-/*Задача 26: Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
+/*Задача 26: Напишите программу, которая принимает на вход число 
+и выдаёт количество цифр в числе.
 456 -> 3
 78 -> 2
 89126 -> 5
@@ -172,11 +178,23 @@ Console.WriteLine((x%100)/10);
 
 
 
-//Задача 28: Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
-//4 -> 24 
-//5 -> 120
+/*Задача 28: Напишите программу, которая принимает на вход число N 
+и выдаёт произведение чисел от 1 до N.
+4 -> 24 
+5 -> 120
+*/
 
-
+/*Console.Write("Введите число: ");
+int m = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+for (i=1; i <= m; i++)
+{
+    if (i % 2 == 0)
+    {
+        Console.Write((i)+(" "));
+    }
+};
+*/
 
 
 
@@ -452,7 +470,59 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(check(n));
 */
 
-/*Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+
+/*Задача 41: Пользователь вводит с клавиатуры M чисел. 
+Посчитайте, сколько чисел больше 0 ввёл пользователь.
+0, 7, 8, -2, -2 -> 2
+1, -7, 567, 89, 223-> 3
+*/
+
+/*Console.Write("Введите числа (через пробел): ");
+int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int count = 0;
+ 
+for (int i = 0; i < arr.Length; i++)
+{
+    if (arr[i] > 0)
+    {
+        count++;
+    }
+}
+ 
+Console.WriteLine($"Количество чисел больше 0: > {count}");
+*/
+
+/*Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
+заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; 
+значения b1, k1, b2 и k2 задаются пользователем.
+
+b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+*/
+
+/*Console.Write("Введите b1: ");
+var b1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите k1: ");
+var k1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите b2: ");
+var b2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите k2: ");
+var k2 = Convert.ToDouble(Console.ReadLine());
+
+ 
+var x = -(b1 - b2) / (k1 - k2);
+var y = k1 * x + b1;
+ 
+x = Math.Round(x, 3);
+y = Math.Round(y, 3);
+ 
+Console.WriteLine($"Пересечение в точке: ({x};{y})");
+*/
+
+
+
+
+/*Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. 
+Первые два числа Фибоначчи: 0 и 1.
 Если N = 5 -> 0 1 1 2 3
 Если N = 3 -> 0 1 1
 Если N = 7 -> 0 1 1 2 3 5 8
