@@ -7,7 +7,7 @@
 */
 
 Console.Write("Введите число: ");
-/*int x = Convert.ToInt32(Console.ReadLine()), y=x, r=0;
+int x = Convert.ToInt32(Console.ReadLine()), y=x, r=0;
 while(y>10)
 {
     r+=y%10;
@@ -21,7 +21,7 @@ if(x==r)
 else
 {
     Console.WriteLine("No");
-}*/
+}
 
 /*
 static void Main()
@@ -39,7 +39,7 @@ static void Main()
  
     Console.ReadKey();
 }
-*/
+*//*
 string number = Console.ReadLine();
 bool task = true;
  
@@ -54,7 +54,7 @@ for (int i = 0; i < number.Length / 2; i++)
         Console.WriteLine("Не палиндром");
 }
 Console.ReadKey();
-
+*/
 
 
 
