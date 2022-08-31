@@ -7,56 +7,18 @@
 */
 
 Console.Write("Введите число: ");
-int x = Convert.ToInt32(Console.ReadLine()), y=x, r=0;
-/*while(y>10)
-{
-    r+=y%10;
-    y/=10;
-}
-r+=y;
-if(x==r) 
-{
-    Console.WriteLine("Yes");
-}
-else
-{
-    Console.WriteLine("No");
-}
-*/
-/*
-static void Main()
-{
-    string number = Console.ReadLine();
-    bool task1 = true;
+/*int x = Convert.ToInt32(Console.ReadLine());*/
+
+string number = Console.ReadLine();
+bool task1 = true;
  
-    for (int i = 0; i < (number.Length - 1) / 2; i++)
-        if (number[i] != number[number.Length - i - 1])
-            task1 = false;
+for (int i = 0; i < (number.Length - 1) / 2; i++)
+    if (number[i] != number[number.Length - i - 1])
+        task1 = false;
  
     if (task1)
         Console.WriteLine("Палиндром");
     else Console.WriteLine("Не палиндром");
- 
-    Console.ReadKey();
-}
-*//*
-string number = Console.ReadLine();
-bool task = true;
- 
-for (int i = 0; i < number.Length / 2; i++)
-{
-    if (number[i] != number[number.Length - i - 1])
-        task = false;
- 
-    if (task)
-        Console.WriteLine("Палиндром");
-    else 
-        Console.WriteLine("Не палиндром");
-}
-Console.ReadKey();
-*/
-
-
 
 
 /*Задача 21. Напишите программу, которая принимает на вход координаты двух точек
